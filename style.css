@@ -41,3 +41,14 @@ button {
   float: left;
   cursor: pointer;
 }
+
+.header {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.thumb-bar{
+  width: 640px;
+}
