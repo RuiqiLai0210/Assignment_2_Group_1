@@ -38,3 +38,16 @@ image_file_indices.forEach((element) => {
 /* *********************************** */
 /* Wiring up the Darken/Lighten button */
 /* *********************************** */
+
+btn.onclick = function() { /*reference from MDN and Professor Discord Streaming*/
+    const button_class = btn.getAttribute("class"); 
+    if (button_class === "dark") {
+      btn.setAttribute("class", "light"); 
+      btn.textContent = "Lighten";
+      overlay.style.backgroundColor = "rgba(0, 0 , 0, 0.5)";
+    } else { 
+      btn.setAttribute("class", "dark")
+      btn.textContent = "Darken"; 
+      overlay.style.backgroundColor = "rgba(0, 0 , 0, 0)";  
+    }
+}
