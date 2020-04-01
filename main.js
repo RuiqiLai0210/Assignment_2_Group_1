@@ -40,6 +40,8 @@ image_file_indices.forEach((element) => {
 /* *********************************** */
 
 btn.onclick = function() { /*reference from MDN and Professor Discord Streaming*/
+    /*the main logic of the code is setup a botton called dark
+    once click on the button, the color changes and the name of the button changes to lighten*/
     const button_class = btn.getAttribute("class"); 
     if (button_class === "dark") {
       btn.setAttribute("class", "light"); 
