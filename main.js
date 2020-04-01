@@ -14,7 +14,11 @@ image_file_indices.forEach((element) => {
     newImage.setAttribute('src', 'images/pic' + element + '.jpg');
     thumbBar.appendChild(newImage);
 })
-//image_file_indices.forEach(element => console.log(element));
-//thumbBar.appendChild(newImage)
+
+const heading1 = document.querySelector("h1");
+const heading2 = document.createElement("h2");
+heading1.innerHTML = 'Ruiqi Lai and Nicholas Stewart';
+heading2.innerHTML = 'Image Gallery';
+
 
 /* Wiring up the Darken/Lighten button */
